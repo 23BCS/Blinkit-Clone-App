@@ -22,7 +22,13 @@ class _PrintScreenState extends State<PrintScreen> {
                 Container(
                   height: 190,
                   width: double.infinity,
-                  color: Color(0XFFF7CB45),
+                   decoration: const BoxDecoration(
+                color: Color(0xFFF7CB45),
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(24),
+                  bottomRight: Radius.circular(24),
+                ),
+              ),
                   child: Column(
                     children: [
                       SizedBox(
@@ -65,7 +71,7 @@ class _PrintScreenState extends State<PrintScreen> {
                               fontweight: FontWeight.bold,
                               fontsize: 14),
                           Uihelper.CustomText(
-                              text: "- Sujal Dave, Ratanada, Jodhpur (Raj)",
+                              text: "-  Anand ,Kharar , Punjab",
                               color: Color(0XFF000000),
                               fontweight: FontWeight.bold,
                               fontsize: 14)

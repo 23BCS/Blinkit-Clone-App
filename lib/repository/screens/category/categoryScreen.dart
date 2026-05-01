@@ -48,7 +48,13 @@ class Categoryscreen extends StatelessWidget {
               Container(
                 height: 190,
                 width: double.infinity,
-                color: Color(0XFFF7CB45),
+                decoration: const BoxDecoration(
+                color: Color(0xFFF7CB45),
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(24),
+                  bottomRight: Radius.circular(24),
+                ),
+              ),
                 child: Column(
                   children: [
                     SizedBox(
