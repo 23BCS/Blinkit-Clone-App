@@ -182,11 +182,11 @@ class _SweetState extends State<Sweet> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "500 ml",
+                  "1 KG",
                   style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
                 ),
                 Text(
-                  "₹28  MRP ₹32",
+                  "₹70  MRP ₹100",
                   style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
                 ),
                 Text(

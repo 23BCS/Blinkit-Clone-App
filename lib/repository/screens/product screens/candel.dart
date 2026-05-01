@@ -180,11 +180,11 @@ class _CandelState extends State<Candel > {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "500 ml",
+                  "2 piece",
                   style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
                 ),
                 Text(
-                  "₹28  MRP ₹32",
+                  "₹79 MRP ₹102",
                   style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
                 ),
                 Text(

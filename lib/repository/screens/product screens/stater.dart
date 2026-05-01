@@ -180,11 +180,11 @@ class _StaterState extends State<Stater> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "500 ml",
+                  "500 Gram",
                   style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
                 ),
                 Text(
-                  "₹28  MRP ₹32",
+                  "₹280  MRP ₹350",
                   style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
                 ),
                 Text(
